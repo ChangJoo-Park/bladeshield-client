@@ -7,6 +7,16 @@ const SidebarStore = {
       name: 'Dashboard',
       icon: 'ti-panel',
       path: '/admin/overview'
+    },
+    {
+      name: 'Data Tables',
+      icon: 'ti-list',
+      path: '/admin/stacktraces'
+    },
+    {
+      name: 'Bookmarks',
+      icon: 'ti-star',
+      path: '/admin/bookmarks'
     }
   ],
   displaySidebar (value) {

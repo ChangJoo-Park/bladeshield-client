@@ -5,6 +5,8 @@ import NotFound from '../components/GeneralViews/NotFoundPage.vue'
 
 // Admin pages
 import Overview from 'src/components/Dashboard/Views/Overview.vue'
+import Stacktraces from 'src/components/Dashboard/Views/Stacktraces.vue'
+import Bookmarks from 'src/components/Dashboard/Views/Bookmarks.vue'
 
 const routes = [
   {
@@ -25,6 +27,16 @@ const routes = [
         path: 'overview',
         name: 'overview',
         component: Overview
+      },
+      {
+        path: 'stacktraces',
+        name: 'stacktraces',
+        component: Stacktraces
+      },
+      {
+        path: 'bookmarks',
+        name: 'bookmarks',
+        component: Bookmarks
       }
     ]
   },
